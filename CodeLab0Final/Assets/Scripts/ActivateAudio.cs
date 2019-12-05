@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class ActivateAudio : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public AudioSource audioClip;
 
-    // Update is called once per frame
-    void Update()
+
+    public void PhoneRing() //call on start button click to make phone ring
     {
-        
+        audioClip = GetComponent<AudioSource>();
+        audioClip.Play();
     }
 }
