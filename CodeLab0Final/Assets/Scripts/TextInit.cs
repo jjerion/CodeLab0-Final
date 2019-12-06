@@ -48,6 +48,6 @@ public class TextInit : MonoBehaviour
 
     public void YoureRight()
     {
-        dialogue.text = "Tyria: I'll see you at home, baby. Be safe.";
+        dialogue.text = "Tyria: I'll see you at home, Aileen. Be safe.";
     }
 }

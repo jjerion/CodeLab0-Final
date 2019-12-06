@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class SceneChange : MonoBehaviour
 {
     //change to the end screen
-    public void ChangeScene(string EndScreen)
+    public void ChangeScene()
     {
-        SceneManager.LoadScene(EndScreen); 
+        SceneManager.LoadScene("EndScreen"); 
     }
 }

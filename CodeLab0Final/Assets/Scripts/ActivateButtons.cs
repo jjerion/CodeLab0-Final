@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 public class ActivateButtons : MonoBehaviour
 {
-    //button vars to use in inspector
+    //button vars to use in inspector (drag and drop ui buttons to empty field)
     public Button pickUp;
     public Button outForADrive;
     public Button dumpingTheBody;
