@@ -10,7 +10,7 @@ public class DestroyStart : MonoBehaviour
     
 
 
-    public void DestroyStartButton() //erase start button when clicked
+    public void DestroyStartButton() //erase start button when clicked (alternative to ActivateButton script)
     {
         startButton = GameObject.FindGameObjectWithTag("Start");
 
