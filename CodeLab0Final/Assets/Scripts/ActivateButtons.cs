@@ -6,6 +6,7 @@ using System.Text.RegularExpressions;
 
 public class ActivateButtons : MonoBehaviour
 {
+    //button vars to use in inspector
     public Button pickUp;
     public Button outForADrive;
     public Button dumpingTheBody;
@@ -13,8 +14,10 @@ public class ActivateButtons : MonoBehaviour
     public Button fuckTheCops;
     public Button badIdea;
     public Button youreRight;
+    public Button hangUp;
 
-    public void ActivatePickUp()
+
+    public void ActivatePickUp() //called one at a time (probably inefficient method but easy for me to organize)
     {  
         pickUp.gameObject.SetActive(true);
     }
@@ -76,5 +79,14 @@ public class ActivateButtons : MonoBehaviour
     public void DeActivateYoureRight()
     {
         youreRight.gameObject.SetActive(false);
+    }
+
+    public void ActivateHangUp()
+    {
+        hangUp.gameObject.SetActive(true);
+    }
+    public void DeActivateHangUp()
+    {
+        hangUp.gameObject.SetActive(false);
     }
 }

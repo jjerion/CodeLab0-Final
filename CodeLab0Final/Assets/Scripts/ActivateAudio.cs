@@ -12,4 +12,10 @@ public class ActivateAudio : MonoBehaviour
         audioClip = GetComponent<AudioSource>();
         audioClip.Play();
     }
+
+    public void PickedUp() //call when player picks up to stop ringing
+    {
+        audioClip = GetComponent<AudioSource>();
+        audioClip.Stop();
+    }
 }
