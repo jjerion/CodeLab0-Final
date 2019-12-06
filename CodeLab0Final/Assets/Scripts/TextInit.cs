@@ -21,7 +21,7 @@ public class TextInit : MonoBehaviour
     
     public void PickUpCall() //call when player clicks "pick up call" button
     {
-        dialogue.text = "Tyria: Thank god you finally picked up. \n Where the hell are you?"; //first text to appear on screen
+        dialogue.text = "Tyria: Thank god you finally picked up. Where the hell are you?"; //first text to appear on screen
     }
 
     public void OutForADrive() //call if player clicks "out for a drive" button
