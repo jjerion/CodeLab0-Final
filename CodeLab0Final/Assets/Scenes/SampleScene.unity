@@ -1685,7 +1685,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.134e-42, y: 1.02e-43, z: 4.697e-42, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -3213,8 +3213,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.4, y: 20.9}
-  m_SizeDelta: {x: 407.37, y: 60}
+  m_AnchoredPosition: {x: -1.4, y: 22.3}
+  m_SizeDelta: {x: 374.12, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1803166929
 MonoBehaviour:
@@ -3247,7 +3247,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: phone text start blah blah blah blah blah blah blah blah blah
+  m_Text: 'phone text start blah blah blah blah blah blah blah blah blah blah blah
+    blah blah '
 --- !u!222 &1803166930
 CanvasRenderer:
   m_ObjectHideFlags: 0
