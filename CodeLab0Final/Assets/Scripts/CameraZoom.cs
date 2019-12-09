@@ -10,6 +10,11 @@ public class CameraZoom : MonoBehaviour
         if (Camera.main.fieldOfView >= 53)
         { 
             InvokeRepeating("IncreaseZoom", 2, 5); //call IncreaseZoom every 5 seconds
+            
+            if(Camera.main.fieldOfView < 53)
+            {
+                CancelInvoke();
+            }
 
         }   
     }
